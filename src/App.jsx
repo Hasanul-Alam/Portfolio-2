@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import MyProjects from "./components/MyProjects/MyProjects";
 import Navigation from "./components/Navigation/Navigation";
 import Skills from "./components/Skills/Skills";
+import Testimonial from "./components/Testimonial/Testimonial";
 
 const Navbar = () => {
   return (
@@ -12,6 +13,7 @@ const Navbar = () => {
       <Skills />
       <AboutMe />
       <MyProjects />
+      <Testimonial />
     </div>
   );
 };
