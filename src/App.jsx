@@ -1,5 +1,6 @@
 import AboutMe from "./components/AboutMe/AboutMe";
 import HeroSection from "./components/HeroSection/HeroSection";
+import MyProjects from "./components/MyProjects/MyProjects";
 import Navigation from "./components/Navigation/Navigation";
 import Skills from "./components/Skills/Skills";
 
@@ -10,6 +11,7 @@ const Navbar = () => {
       <HeroSection />
       <Skills />
       <AboutMe />
+      <MyProjects />
     </div>
   );
 };
