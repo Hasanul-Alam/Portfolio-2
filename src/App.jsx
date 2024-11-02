@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe/AboutMe";
+import Footer from "./components/Footer/Footer";
 import HeroSection from "./components/HeroSection/HeroSection";
 import MyProjects from "./components/MyProjects/MyProjects";
 import Navigation from "./components/Navigation/Navigation";
@@ -14,6 +15,7 @@ const Navbar = () => {
       <AboutMe />
       <MyProjects />
       <Testimonial />
+      <Footer />
     </div>
   );
 };

@@ -10,7 +10,7 @@ export default function Testimonial() {
 
       {/* Testimonial Cards */}
       <div className="grid grid-cols-3 gap-4 max-md:grid-cols-1">
-        <div className="shadow shadow-[#71717A] px-20 py-10 rounded-xl">
+        <div className="shadow shadow-[#71717A] px-20 py-10 rounded-xl hover:bg-black hover:text-white transition duration-500 ease-in-out hover:cursor-pointer">
           {/* Image */}
           <div className="flex justify-center">
             <img
@@ -20,7 +20,7 @@ export default function Testimonial() {
             />
           </div>
           <div>
-            <p className="text-center text-[#71717A] mt-5">
+            <p className="text-center mt-5">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta,
               qui doloremque magni...
             </p>
@@ -29,9 +29,9 @@ export default function Testimonial() {
             </div>
           </div>
           <h3 className="text-center font-bold text-xl my-5">Evren Shah</h3>
-          <h4 className="text-center font-semibold text-[#71717A]">Designer</h4>
+          <h4 className="text-center font-semibold">Designer</h4>
         </div>
-        <div className="shadow shadow-[#71717A] px-20 py-10 rounded-xl">
+        <div className="shadow shadow-[#71717A] px-20 py-10 rounded-xl hover:bg-black hover:text-white transition duration-500 ease-in-out hover:cursor-pointer">
           {/* Image */}
           <div className="flex justify-center">
             <img
@@ -41,7 +41,7 @@ export default function Testimonial() {
             />
           </div>
           <div>
-          <p className="text-center text-[#71717A] mt-5">
+            <p className="text-center mt-5">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta,
               qui doloremque magni...
             </p>
@@ -50,9 +50,9 @@ export default function Testimonial() {
             </div>
           </div>
           <h3 className="text-center font-bold text-xl my-5">Evren Shah</h3>
-          <h4 className="text-center font-semibold text-[#71717A]">Designer</h4>
+          <h4 className="text-center font-semibold">Designer</h4>
         </div>
-        <div className="shadow shadow-[#71717A] px-20 py-10 rounded-xl">
+        <div className="shadow shadow-[#71717A] px-20 py-10 rounded-xl hover:bg-black hover:text-white transition duration-500 ease-in-out hover:cursor-pointer">
           {/* Image */}
           <div className="flex justify-center">
             <img
@@ -62,7 +62,7 @@ export default function Testimonial() {
             />
           </div>
           <div>
-          <p className="text-center text-[#71717A] mt-5">
+            <p className="text-center mt-5">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta,
               qui doloremque magni...
             </p>
@@ -71,15 +71,15 @@ export default function Testimonial() {
             </div>
           </div>
           <h3 className="text-center font-bold text-xl my-5">Evren Shah</h3>
-          <h4 className="text-center font-semibold text-[#71717A]">Designer</h4>
+          <h4 className="text-center font-semibold">Designer</h4>
         </div>
-
-        
       </div>
       {/* See More Button */}
       <div className="flex justify-center mt-20 max-md:mt-10">
-        <button className="bg-[#71717A] px-10 py-3 text-slate-50 rounded-lg hover:bg-black hover:text-white">See More</button>
-        </div>
+        <button className="bg-[#71717A] px-10 py-3 text-slate-50 rounded-lg hover:bg-black hover:text-white">
+          See More
+        </button>
+      </div>
     </div>
   );
 }
